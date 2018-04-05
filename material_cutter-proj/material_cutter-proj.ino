@@ -82,6 +82,8 @@ void setup()
   pinMode(cut_motor1_2,OUTPUT);
   pinMode( ult_trigport, OUTPUT );
   pinMode( ult_echoport, INPUT );
+  pinMode(c_en,OUTPUT);
+  pinMode(r_en,OUTPUT);
   Serial.begin(9600);
   r_mtr_init();
   
